@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+p {
+    margin: 0px;
+}
+h1 {
+    margin: 0;
+}
+#header {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+    display: flex;
+    margin-right: 222px;
+}
+a {
+    text-decoration: none;
+}
+.menu_text {
+    color: #0C0B0B;
+    font-size: 16px;
+    font-weight: 700;
+}
+.leave_req {
+    background-image: linear-gradient(135deg, #2D8AC3, #2270A0);
+    color: white; /* Белый цвет текста */
+    font-size: 16px;
+    border: none;
+    width: 170px;
+    height: 45px;
+    border-radius: 20px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 97px;
+    height: 67px;
+    margin-right: 222px;
+}
+ul {
+    padding-right: 30px;
+    white-space: nowrap; 
+}
