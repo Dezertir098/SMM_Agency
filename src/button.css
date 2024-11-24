@@ -87,3 +87,10 @@
     margin-top: 25px;
     background: linear-gradient(135deg, #2D8AC3, #98328A);
   }
+
+  .c {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 80px;
+  }

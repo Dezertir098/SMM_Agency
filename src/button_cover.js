@@ -31,7 +31,7 @@ const [isClosing, setIsClosing] = useState(false);
           <div className={`modal-content ${isClosing ? 'slide-out' : ''}`}>
             <div className='content'>
             <span className="close" onClick={closeModal}>&times;</span>
-            <img class = 'logo' src="/Derry_Logo.png" alt="Derry Logo" />
+            <img className = 'logo' src="/Derry_Logo.png" alt="Derry Logo" />
             {/* Здесь можно добавить форму или другие элементы */}
             </div>
           </div>
@@ -40,7 +40,7 @@ const [isClosing, setIsClosing] = useState(false);
     </div>
     );
     return (
-        <button onClick={openModal} class = "leave_req">Оставить заявку</button>
+        <button onClick={openModal} className = "leave_req">Оставить заявку</button>
       );
 }
 
