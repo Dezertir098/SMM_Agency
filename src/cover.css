@@ -1,0 +1,31 @@
+#cover {
+    background-image: url(/public/cover_back.png); /* Путь к изображению из папки public */
+    background-size: cover; /* Изображение будет растянуто на весь экран */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    margin: 0; /* Убираем отступы по умолчанию */
+    height: 734px; /* Высота блока на весь экран */
+    width: 1920px;
+    display: flex; /* Используем Flexbox */
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: center; /* Центрируем контейнер по вертикали */
+}
+.cover_text_blog {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стиль для блока с текстом */
+.cover_text_blog {
+    max-width: 400px; /* Устанавливаем максимальную ширину */
+}
+
+.cover_text_blog h1 {
+    font-size: 36px; /* Размер шрифта */
+    line-height: 1.4; /* Межстрочный интервал */
+    font-weight: bold; /* Полужирный шрифт */
+}
+.cover_text_blog p {
+    font-size: 24px;
+    padding-top: 20px;
+}

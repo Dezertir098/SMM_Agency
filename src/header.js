@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import Button from './button';
 function Header() {
   return (
     <header className = "container" id = "header">
@@ -11,7 +12,7 @@ function Header() {
                 <ul><a class = 'menu_text' href=''>Услуги</a></ul>
                 <ul><a class = 'menu_text' href=''>Кейсы</a></ul>
             </li>
-            <button class = "leave_req">Оставить заявку</button>
+            <Button/>
             </div>
             
     </header>
