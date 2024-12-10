@@ -8,6 +8,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100
   }
 
   .modal-content {
@@ -94,3 +95,99 @@
     flex-direction: column;
     margin-left: 80px;
   }
+
+
+  .c p {
+    font-weight: 600;  
+  }
+  .btn_leave_req {
+    display: flex;
+    justify-content: center;
+  }
+  input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 370px;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    height: 127px;
+  }
+   .base_info {
+    height: 30px;
+  }
+  .file {
+    background: none;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 30px;
+    width: 124px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Скрываем стандартный чекбокс */
+  .checkbox-input {
+    display: none;
+  }
+  
+  /* Стили для кастомной метки (чекбокса) */
+  .checkbox-label {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000000;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Стили для галочки внутри чекбокса */
+  .checkbox-label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  /* Стили для текста */
+  .checkbox-text {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  a {
+    font-size: 12px;
+  }
+
+  #file-upload-button {
+    background: none;
+
+  }
+
+
+  input[type="file"]::-webkit-file-upload-button {
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding-top: 7px;
+    
+    cursor: pointer;
+    
+}
+
+input[type="file"] {
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  padding-top: 3px;
+}

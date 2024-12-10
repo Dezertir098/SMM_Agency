@@ -1,0 +1,45 @@
+.sum_cover {
+    background-image: url(/public/sam_case_back.png);
+    height: 488px;
+}
+.cover_text_sum {
+    display: flex;
+    padding-top: 180px;
+    flex-direction: column;
+    align-items: center;
+}
+.cover_text_sum h2 {
+    color: rgb(255, 255, 255);
+}
+.line {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 310px;
+    margin-top: 20px;
+}
+.client_info {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.client_info p{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.client_info span{
+    font-weight: 700;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.results h2 {
+    font-size: 32px;
+}
+.results p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}

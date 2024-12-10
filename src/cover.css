@@ -5,7 +5,6 @@
     background-repeat: no-repeat; /* Запрещаем повторение изображения */
     margin: 0; /* Убираем отступы по умолчанию */
     height: 734px; /* Высота блока на весь экран */
-    width: 1920px;
     display: flex; /* Используем Flexbox */
     justify-content: center; /* Центрируем контейнер по горизонтали */
     align-items: center; /* Центрируем контейнер по вертикали */
@@ -25,7 +24,7 @@
     line-height: 1.4; /* Межстрочный интервал */
     font-weight: bold; /* Полужирный шрифт */
 }
-.cover_text_blog p {
+.cover_text {
     font-size: 24px;
     padding-top: 20px;
 }

@@ -1,0 +1,29 @@
+.social_list {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* Два столбца одинаковой ширины */
+ }
+ .leave {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #ffffff;
+  width: 527px; 
+  height: 700px; 
+  border-radius: 60px;
+  filter: drop-shadow(17px 12px 46px rgba(0, 0, 0, 0.17));
+ }
+.contacts_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#contacts h2 {
+    font-weight: 900;
+    font-size: 64px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.content_position {
+    margin-right: 100px;
+    margin-right: 50px;
+}

@@ -1,0 +1,20 @@
+#cases h2 {
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 50px;
+    color: #000000;
+}
+.case_list {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новые строки */
+    justify-content: space-around;
+    
+  }
+.case_list  p{
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title {
+    font-size: 24px;
+}

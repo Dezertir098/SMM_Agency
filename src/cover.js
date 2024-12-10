@@ -7,7 +7,7 @@ function Cover() {
       <div className='container'>
         <div className='cover_text_blog'>
           <h1>Быстрая реклама и продвижение в социальных сетях</h1>
-          <p>Надёжно и недорого</p>
+          <p className='cover_text'>Надёжно и недорого</p>
           <Button_cover />
         </div>
       </div>

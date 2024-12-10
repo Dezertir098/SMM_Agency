@@ -1,0 +1,40 @@
+.background {
+    background: linear-gradient(to right, #2D8AC3, #98328A); 
+    height: 297px;
+}
+#fotter p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+#fotter {
+    padding-top: 40px;
+    color: #ffffff;
+    display: flex;
+    
+}
+.site_content {
+    display: flex;
+    justify-content: space-between;
+}
+.fotter_column {
+    margin-right: 100px;
+}
+.adress {
+    display: flex;
+}
+.adress p {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.logo_name h2{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.socials {
+    display: flex;
+    justify-content: space-evenly
+}
