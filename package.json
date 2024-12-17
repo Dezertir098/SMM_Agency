@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://Dezertir098.github.io/SMM_Agency",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
