@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SMM_Agency/static/css/main.637988a9.css",
+    "main.js": "/SMM_Agency/static/js/main.037f3cb2.js",
+    "static/js/317.46da3abf.chunk.js": "/SMM_Agency/static/js/317.46da3abf.chunk.js",
+    "static/media/cover_back.png": "/SMM_Agency/static/media/cover_back.650ffa584943f71dc221.png",
+    "static/media/sam_case_back.png": "/SMM_Agency/static/media/sam_case_back.4c5390638439800a1199.png",
+    "index.html": "/SMM_Agency/index.html",
+    "main.637988a9.css.map": "/SMM_Agency/static/css/main.637988a9.css.map",
+    "main.037f3cb2.js.map": "/SMM_Agency/static/js/main.037f3cb2.js.map",
+    "317.46da3abf.chunk.js.map": "/SMM_Agency/static/js/317.46da3abf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.637988a9.css",
+    "static/js/main.037f3cb2.js"
+  ]
+}
